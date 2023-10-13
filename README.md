@@ -1,8 +1,16 @@
+# Projeto Todo List API
+
+Este é um projeto de exemplo de uma API de lista de tarefas desenvolvida como parte de um desafio de projeto do Bootcamp Santander-Digital Innovation One. O projeto utiliza as seguintes tecnologias:
+
+- Spring Boot
+- Java 17
+- Maven
+- Swagger
+- Railway
+
+Além disso, apresenta um diagrama de classes em UML gerado com a sintaxe Mermaid.
 # Diagrama de classes
-
-
 ```mermaid
-
 classDiagram
 class TaskController {
 + getTask(id: Long): Task
@@ -33,4 +41,3 @@ TaskController --|> TaskService
 TaskService --|> Task
 TaskController --|> TaskNotFoundException
 
-```mermaid
